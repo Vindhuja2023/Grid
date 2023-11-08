@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GridPart {
@@ -61,5 +62,8 @@ public class GridPart {
 			e.printStackTrace();
 		}
 
+	}
+	public void dummyTest() {
+		Assert.assertTrue(true);
 	}
 }
