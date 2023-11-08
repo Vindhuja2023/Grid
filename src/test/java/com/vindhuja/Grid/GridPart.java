@@ -3,6 +3,7 @@ package com.vindhuja.Grid;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -47,6 +48,10 @@ public class GridPart {
 		wd.quit();
 
 	}
+	
+	public void dummyTest() {
+		Assert.assertTrue(true);
+	}
 
 	public void sleep() {
 		try {
@@ -55,5 +60,6 @@ public class GridPart {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
 	}
 }
