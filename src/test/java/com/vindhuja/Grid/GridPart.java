@@ -49,9 +49,13 @@ public class GridPart {
 		wd.quit();
 
 	}
-	
+
 	public void dummyTest() {
 		Assert.assertTrue(true);
+	}
+
+	public void garbageTest() {
+		Assert.assertEquals(true, true);
 	}
 
 	public void sleep() {
