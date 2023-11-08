@@ -62,8 +62,11 @@ public class GridPart {
 
 	}
 
-	public void dummyTest() {
+	public void falseTest() {
 		Assert.assertTrue(true);
+	}
+
+	public void dummyTest() {
 		Assert.assertEquals(false, true);
 	}
 }
