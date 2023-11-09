@@ -17,7 +17,7 @@ public class GridPart {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
 		WebDriver wd = new RemoteWebDriver(new URL("http://192.168.2.11:4444/"), options);
-		wd.get("https://demoqa.com/");
+		wd.get("https://stackoverflow.com/");
 		System.out.println(wd.getCurrentUrl());
 		sleep();
 		wd.quit();
@@ -29,7 +29,7 @@ public class GridPart {
 		FirefoxOptions options = new FirefoxOptions();
 		options.addArguments("-private");
 		WebDriver wd = new RemoteWebDriver(new URL("http://192.168.2.11:4444/"), options);
-		wd.get("https://stackoverflow.com/");
+		wd.get("https://demoqa.com/");
 		System.out.println(wd.getTitle());
 		sleep();
 		wd.quit();
@@ -41,7 +41,7 @@ public class GridPart {
 		EdgeOptions options = new EdgeOptions();
 		options.setCapability("InPrivate", true);
 		WebDriver wd = new RemoteWebDriver(new URL("http://192.168.2.11:4444/"), options);
-		wd.get("https://demoqa.com/");
+		wd.get("https://bookoutlet.ca/products/9781635577921B/a-day-of-fallen-night-the-roots-of-chaos-bk-2");
 		System.out.println(wd.getTitle());
 		sleep();
 		wd.quit();
